@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Belajar CSS Framework - Semantic UI</title>
+    <link rel="stylesheet" href="styles/semantic.min.css" />
+    <script src="js/semantic.min.js"></script>
+  </head>
+  <body>
+    <nav class="ui secondary pointing menu">
+      <a href="/" class="item">Beranda</a>
+      <a href="catatan.html" class="active item">Catatan</a>
+      <a href="galeri.html" class="item">Galeri</a>
+      <a href="daftar.html" class="item">Daftar</a>
+      <a href="pesan_tiket.html" class="item">Pesan Tiket</a>
+    </nav>
+    <main class="ui container" style="margin: 2.5rem 0">
+      <h1 class="ui big header">Catatan Saya</h1>
+
+      <div class="ui grid">
+        <section class="four wide column">
+          <div class="ui secondary vertical pointing menu">
+            <a class="active item">Catatan</a>
+            <a class="item">Jadwal</a>
+            <a class="item">To-do list</a>
+          </div>
+        </section>
+
+        <section class="twelve wide column">
+          <div class="ui fluid card">
+            <div class="content">
+              <div class="header">Meeting Proyek "Pengembangan Aplikasi"</div>
+              <div class="meta">My Project</div>
+              <div class="description">
+                Hari ini kami membahas perkembangan terbaru dalam pengembangan aplikasi. Progres tim
+                sudah mencapai 70% dan kita perlu fokus pada testing dan debugging untuk
+                menyelesaikan proyek tepat waktu.
+              </div>
+            </div>
+          </div>
+          <div class="ui fluid card">
+            <div class="content">
+              <div class="header">Resep Masakan Nasi Goreng Spesial</div>
+              <div class="meta">Kuliner</div>
+              <div class="description">
+                Bahan-bahan: nasi, telur, sayuran, kecap dan bumbu lainnya. Langkah-langkah: tumis
+                bumbu, masukkan telur, masukkan nasi dan aduk hingga matang. Taburkan bawang goreng
+                dan nasi goreng siap disajikan!
+              </div>
+            </div>
+          </div>
+          <div class="ui fluid card">
+            <div class="content">
+              <div class="header">Rumus Matematika Dasar</div>
+              <div class="meta">Catatan</div>
+              <div class="description">
+                Rumus persegi: Sisi x Sisi. Rumus segitiga: (Alas x Tinggi) / 2. Rumus lingkaran: π
+                x Jari-jari x Jari-jari.
+              </div>
+            </div>
+          </div>
+          <div class="ui fluid card">
+            <div class="content">
+              <div class="header">Daftar Buku Pilihan</div>
+              <div class="meta">Hobi</div>
+              <div class="description">
+                saya ingin membaca lebih banyak buku bulan ini. Daftar buku pilihan saya antara lain
+                "Sapiens" karya Yuval Noah Harari dan "Educated" karya Tara Westover.
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <p class="ui center aligned header big segment">
+        &copy; 2024 Amro Alfien Syachrian Nadzief - 233307004
+      </p>
+    </footer>
+  </body>
+</html>
